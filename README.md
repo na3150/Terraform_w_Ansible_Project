@@ -2,14 +2,14 @@
 
 <br>
 
-## 프로젝트 목표
+## 1. 프로젝트 목표
 
 IaC Tool인 Ansible과 Terraform를 사용하여 `AWS`, `Azure` 각각에 고가용성 wordpress를 배포한다. 
 
 <br>
 
 
-## 프로젝트 환경
+## 2. 프로젝트 환경
 
 ###  테스트 컴퓨터 환경
 
@@ -33,9 +33,11 @@ IaC Tool인 Ansible과 Terraform를 사용하여 `AWS`, `Azure` 각각에 고가
 |           | Python (Linux) 3.6.8 필요 |
 <br>
 
-## 서비스 아키텍처
 
-### 1. `AWS`
+
+## 3. 서비스 아키텍처
+
+### `AWS`
 
 ![img](https://user-images.githubusercontent.com/64996121/165767459-caa6f80b-7a87-40fd-9601-c48729a60326.png)
 
@@ -57,7 +59,7 @@ Bastion Host를 Public Subnet에 구성하고 Wordpress Server와 DB 서버를 P
 
 <br>
 
-### 2. `Azure`
+### `Azure`
 
 ![img](https://user-images.githubusercontent.com/64996121/167747992-ef93f1cb-01dc-430f-9912-7f6519ba177f.png)
 
@@ -80,3 +82,8 @@ Bastion Host와 Web Server, DB 서버를 서로 다른 Subnet에 구성함으로
 <br>
 
 <br>
+
+## OutPuts
+
+- [Final Presenataion PPT](https://github.com/na3150/Terraform_w_Ansible_Project/blob/main/Final%20Presentation%20PPT.pdf)
+
