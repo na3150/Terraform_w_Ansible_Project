@@ -54,7 +54,7 @@ Bastion Host를 Public Subnet에 구성하고 Wordpress Server와 DB 서버를 P
 | VPC          | 격리된 가상 네트워크 구성                           |
 | EC2          | Bastion Host, WAS Server구성                        |
 | RDS          | wordpress DB 용 관리형 데이터베이스 MySQL 서버 구성 |
-| ELB          | wordpress EC2 인스턴스로의 트래픽 분산              |
+| ALB          | wordpress EC2 인스턴스로의 트래픽 분산              |
 | Auto Scaling | wordpress EC2 인스턴스의 개수를 자동으로 조정       |
 
 <br>
@@ -76,7 +76,7 @@ Bastion Host와 Web Server, DB 서버를 서로 다른 Subnet에 구성함으로
 | VNet      | 격리된 가상 네트워크 구성                             |
 | VM        | Bastion Host, WAS Server구성                          |
 | DB Server | wordpress DB 용 관리형 데이터베이스 MariaDB 서버 구성 |
-| ELB       | wordpress VM으로의 트래픽 분산                        |
+| ALB       | wordpress VM으로의 트래픽 분산                        |
 | VMSS      | wordpress VM의 개수를 자동으로 조정                   |
 
 <br>
