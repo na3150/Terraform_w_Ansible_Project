@@ -1,4 +1,4 @@
-# Terraform과 Ansible 사용하여 WordPress 구축하기
+# IaC Tool을 이용한 퍼블릭 클라우드 WordPress 자동화 배포
 
 <br>
 
