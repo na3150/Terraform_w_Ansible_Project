@@ -1,4 +1,4 @@
-# Terraform과 Ansible 사용하여 3-tier 구현하기
+# Terraform과 Ansible 사용하여 WordPress 구축하기
 
 <br>
 
